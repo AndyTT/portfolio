@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Temporary */
+section, footer, .home {
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+section {
+    background-color: red;
+    border: 5px solid green;
+}
+
+footer {
+    background-color: black;
+}
+
+
+/* ------------------------ HOME ------------------------ */
+.home {
+    background-image: url("../images/jeremy-bishop-G9i_plbfDgk-unsplash.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-shadow:inset 0 0 0 2000px rgba(60, 60, 61, 0.315);
+    height: 100%;
+}
+
+/* home,nav */
+.home nav {
+    background-color: red;
+    margin-right: 70px; /* Each side should be 70px margin */
+    margin-left: 70px;
+    padding-top: 30px;
+    height: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.home nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.home nav ul li{
+    background-color: red;
+    display: inline-block;
+}
+
+/* home, heading */
+.home div {
+    margin: auto;
+    width: 50%;
+    top: 30%;
+    position: relative;
+    display: block;
+    background-color: red;
+}
+
+.name {
+    margin: auto;
+}
