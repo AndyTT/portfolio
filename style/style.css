@@ -55,7 +55,7 @@ footer {
 .home li{
     display: inline-block;
     font-size: 25px;
-    color: white;
+    color: #DADAD9;
     margin: 0 35px;
 }
 
@@ -70,7 +70,11 @@ footer {
     top: 25%;
     position: relative;
     display: block;
-    color: whitesmoke;
+    color: #EDE6E3;
     font-size: 30px;
     text-align: center;
+}
+
+#andy {
+    color: tomato;
 }
