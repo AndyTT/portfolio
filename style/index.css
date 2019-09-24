@@ -108,12 +108,12 @@ footer {
     margin: auto;
     font-size: 40px;
     color: #DADAD9;
-    transition: font-size 0.5s;
+    transition: font-size 0.5s; /* button transition */
 }
 
 #arrow a:hover{
     color: #595959;
-    font-size: 48px;
+    font-size: 48px; /* button transition */
     text-shadow: 0 0 10px #DADAD9;
 }
 
@@ -128,14 +128,14 @@ footer {
     padding-right: 30px;
     padding-bottom: 15px;
     font-size: 28px;
-    transition: font-size 0.5s;
+    transition: font-size 0.5s; /* button transition */
     position: fixed;
     color: #595959;
 }
 
 #home-absolute:hover{
     color: #B76D68;
-    font-size: 32px;
+    font-size: 32px; /* button transition */
     text-shadow: 0 0 3px #403F4C;
 }
 
