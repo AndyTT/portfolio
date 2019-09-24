@@ -8,7 +8,7 @@ html, body {
 }
 
 /* JoseFin FONT */
-.home li, .name {
+.home li, .name, .skills {
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -18,9 +18,9 @@ section, footer{
 }
 
 section {
-    background-color: red;
-    border: 5px solid green;
+    background-color: lightgray;
 }
+
 
 footer {
     background-color: black;
@@ -33,8 +33,10 @@ footer {
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    box-shadow:inset 0 0 0 2000px rgba(60, 60, 61, 0.315);
     height: 100%;
+    border-bottom-style: solid;
+    border-bottom-color: #595959;
+    border-bottom-width: 5px;
 }
 
 /* home,nav */
@@ -47,27 +49,41 @@ footer {
     flex-direction: row-reverse;
 }
 
-.nav ul{
+.nav-head ul{
     list-style-type: none;
     padding: 0;
 }
 
 .home li{
     display: inline-block;
-    font-size: 25px;
+    font-size: 23px;
     color: #DADAD9;
     margin: 0 35px;
+}
+
+.home li:hover {
+    color: #B76D68;
 }
 
 .home li:last-child {
     margin-right: 0;
 }
+/* nav anchor css */
+.home a:link, .home a:visited, .home a:active{
+    text-decoration: none;
+    color: #DADAD9;
+}
+
+.home a:hover {
+    text-decoration: none;
+    color: #B76D68;
+}
 
 /* home, heading */
 .name {
     margin: auto;
-    width: 50%;
-    top: 20%;
+    width: 60%;
+    top: 23%;
     position: relative;
     display: block;
     color: #EDE6E3;
@@ -81,4 +97,21 @@ footer {
 
 #andy {
     color: #B76D68;
+}
+
+
+/* ------------------------ SKILLS ------------------------ */
+
+.skills {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(
+        to bottom, #EDE6E3,#DADAD9);
+}
+
+.skills h1 {
+    color: #403F4C;
+    font-size: 50px;
+    margin: 50px auto;
 }
