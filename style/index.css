@@ -1,3 +1,8 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -7,8 +12,11 @@ html, body {
     height: 100%;
 }
 
-html {
-    scroll-behavior: smooth;
+/* Bottom Border */
+.home, .skills, .about, .projects, .contact {
+    border-bottom-style: solid;
+    border-bottom-color: #595959;
+    border-bottom-width: 5px;
 }
 
 /* JoseFin FONT */
@@ -18,129 +26,6 @@ html {
 /* Fira Sans Font */
 .skills h4, .progress ul li {
     font-family: 'Fira Sans', 'Be Vietnam', sans-serif;
-}
-
-/* Temporary */
-.projects, .about {
-    background-color: red;
-}
-footer {
-    background-color: black;
-}
-
-
-/* ------------------------ HOME ------------------------ */
-.home {
-    background-image: url("../images/blackbird.jpg");
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    border-bottom-style: solid;
-    border-bottom-color: #595959;
-    border-bottom-width: 5px;
-}
-
-/* home,nav */
-.nav-head {
-    margin-right: 70px; /* Each side should be 70px margin */
-    margin-left: 70px;
-    padding-top: 30px;
-    height: 20px;
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-.nav-head ul{
-    list-style-type: none;
-    padding: 0;
-}
-
-.home li{
-    display: inline-block;
-    font-size: 23px;
-    color: #DADAD9;
-    margin: 0 35px;
-}
-
-.home li:hover {
-    color: #B76D68;
-}
-
-.home li:last-child {
-    margin-right: 0;
-}
-
-/* nav anchor and absolute home css */
-.home a:link, .home a:visited, .home a:active {
-    text-decoration: none;
-    color: #DADAD9;
-}
-
-.home a:hover {
-    text-decoration: none;
-    color: #B76D68;
-}
-
-/* home, heading */
-.name {
-    margin: auto;
-    width: 60%;
-    top: 18%;
-    position: relative;
-    display: block;
-    color: #EDE6E3;
-    font-size: 30px;
-    text-align: center;
-}
-
-.name h3 {
-    line-height: 45px;
-}
-
-#andy {
-    color: #B76D68;
-}
-/* Skills Arrow on Home */
-#arrow {
-    display: flex;
-    position: relative;
-    top: 32%;
-}
-
-#arrow a{
-    margin: auto;
-    font-size: 40px;
-    color: #DADAD9;
-    transition: font-size 0.5s; /* button transition */
-}
-
-#arrow a:hover{
-    color: #595959;
-    font-size: 48px; /* button transition */
-    text-shadow: 0 0 10px #DADAD9;
-}
-
-/* Home Absolute Anchor */
-.home-anchor-div {
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-#home-absolute {
-    bottom: 0;
-    padding-right: 30px;
-    padding-bottom: 15px;
-    font-size: 28px;
-    transition: font-size 0.5s; /* button transition */
-    position: fixed;
-    color: #595959;
-}
-
-#home-absolute:hover{
-    color: #B76D68;
-    font-size: 32px; /* button transition */
-    text-shadow: 0 0 3px #403F4C;
 }
 
 
