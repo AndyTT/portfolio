@@ -17,15 +17,9 @@ html, body {
 }
 
 /* Temporary */
-section, footer{
-    margin-bottom: 10px;
+.projects, .about {
+    background-color: red;
 }
-
-section {
-    background-color: lightgray;
-}
-
-
 footer {
     background-color: black;
 }
