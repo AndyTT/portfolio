@@ -8,8 +8,12 @@ html, body {
 }
 
 /* JoseFin FONT */
-.home li, .name, .skills {
-    font-family: 'Josefin Sans', sans-serif;
+.home li, .name, .skills h1 {
+    font-family: 'Josefin Sans', 'Fira Sans', sans-serif;
+}
+/* Fira Sans Font */
+.skills h4 {
+    font-family: 'Fira Sans', 'Be Vietnam', sans-serif;
 }
 
 /* Temporary */
@@ -68,8 +72,9 @@ footer {
 .home li:last-child {
     margin-right: 0;
 }
-/* nav anchor css */
-.home a:link, .home a:visited, .home a:active{
+
+/* nav anchor and absolute home css */
+.home a:link, .home a:visited, .home a:active {
     text-decoration: none;
     color: #DADAD9;
 }
@@ -83,7 +88,7 @@ footer {
 .name {
     margin: auto;
     width: 60%;
-    top: 23%;
+    top: 18%;
     position: relative;
     display: block;
     color: #EDE6E3;
@@ -98,20 +103,86 @@ footer {
 #andy {
     color: #B76D68;
 }
+/* Skills Arrow on Home */
+#arrow {
+    display: flex;
+    position: relative;
+    top: 32%;
+}
 
+#arrow a{
+    margin: auto;
+    font-size: 40px;
+    color: #DADAD9;
+}
+
+#arrow a:hover{
+    color: #595959;
+    text-shadow: 0 0 10px #DADAD9;
+}
+
+/* Home Absolute Anchor */
+.home-anchor-div {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#home-absolute {
+    bottom: 0;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    font-size: 28px;
+    position: fixed;
+    color: #595959;
+}
+
+#home-absolute:hover{
+    color: #B76D68;
+    text-shadow: 0 0 3px #DADAD9;
+}
 
 /* ------------------------ SKILLS ------------------------ */
 
 .skills {
     height: 100%;
-    display: flex;
-    flex-direction: row;
     background-image: linear-gradient(
         to bottom, #EDE6E3,#DADAD9);
 }
 
 .skills h1 {
     color: #403F4C;
+    display: block;
     font-size: 50px;
-    margin: 50px auto;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 45px;
 }
+
+.skills-flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px 70px;
+    justify-content: center;
+}
+
+.skills-flex-container div {
+    margin: auto;
+    padding: 0 15px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.skills-flex-container div i {
+    font-size: 60px;
+}
+
+.skills-java {
+    font-size: 90px;
+}
+
+
+
+
+
+

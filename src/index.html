@@ -7,6 +7,7 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/32ba410a11.js" crossorigin="anonymous"></script>
     <!-- CSS -->
@@ -19,7 +20,7 @@
     <header class="home" id="home-nav-anchor">
         <nav class="nav-head">
             <ul>
-                <li><a href="#home-nav-anchor">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="#skills-nav-anchor">Skills</a></li>
                 <li><a>Projects</a></li>
                 <li><a>About</a></li>
@@ -31,11 +32,60 @@
             <h3>I'm an aspiring full-stack web developer and 
                 UX designer with a passion for learning.</h3>
         </div>
+        <div id="arrow">
+            <a href="#skills-nav-anchor">
+                <i class="fas fa-chevron-circle-down"></i>
+            </a>
+        </div>
     </header>
+
+    <!-- FIXED HOME TO TOP BUTTON -->
+    <div class="home-anchor-div">
+            <a href="#home-nav-anchor" id="home-absolute">
+                <i class="fas fa-chevron-circle-up"></i>
+            </a>
+        </div>
 
     <!-- SKILLS -->
     <section class="skills" id="skills-nav-anchor">
         <h1>Skills</h1>
+        <div class="skills-flex-container">
+            
+            <div class="skills-html">
+                <i class="fab fa-html5"></i>
+                <h4>HTML5</h4>
+            </div>
+
+            <div class="skills-css">
+                <i class="fab fa-css3-alt"></i>
+                <h4>CSS3</h4>
+            </div>
+
+            <div class="skills-js">
+                    <i class="fab fa-js-square"></i>
+                    <h4>JavaScript</h4>
+            </div>
+
+            <div class="skills-php">
+                <i class="fab fa-php"></i>
+                <h4>PHP</h4>
+            </div>
+
+            <div class="skills-db">
+                <i class="fas fa-database"></i>
+                <h4>MySQL</h4>
+            </div>
+
+            <div class="skills-java">
+                <i class="fab fa-java"></i>
+                <h4>Java & JavaFX</h4>
+            </div>
+
+            <div class="skills-xd">
+                <i class="fab fa-adobe"></i>
+                <h4>Adobe XD</h4>
+            </div>
+        </div>
     </section>
 
     <!-- PROJECTS -->
