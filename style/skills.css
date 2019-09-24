@@ -1,7 +1,7 @@
 /* ------------------------ SKILLS ------------------------ */
 
 .skills {
-    height: 82%;
+    height: 77%;
     background-image: linear-gradient(
         to bottom, #EDE6E3,#DADAD9);
     border-bottom-style: solid;
@@ -12,10 +12,13 @@
 .skills h1 {
     color: #403F4C;
     display: block;
-    font-size: 50px;
     text-align: center;
     margin-top: 0px;
+}
+
+.skills-h1 {
     padding-top: 45px;
+    font-size: 50px;
 }
 
 .skills-flex-container{
@@ -90,7 +93,13 @@
 .progress ul li {
     display: inline-block;
     margin: 30px;
+    margin-top: 15px;
     font-size: 20px;
     font-weight: bold;
     color: #595959;
+}
+
+.in-prog {
+    font-size: 30px;
+    padding-top: 20px;
 }

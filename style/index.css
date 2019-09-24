@@ -7,6 +7,10 @@ html, body {
     height: 100%;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* JoseFin FONT */
 .home li, .name, .skills h1 {
     font-family: 'Josefin Sans', 'Fira Sans', sans-serif;
