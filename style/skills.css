@@ -1,0 +1,96 @@
+/* ------------------------ SKILLS ------------------------ */
+
+.skills {
+    height: 82%;
+    background-image: linear-gradient(
+        to bottom, #EDE6E3,#DADAD9);
+    border-bottom-style: solid;
+    border-bottom-color: #595959;
+    border-bottom-width: 5px;
+}
+
+.skills h1 {
+    color: #403F4C;
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 45px;
+}
+
+.skills-flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px 70px;
+    justify-content: center;
+}
+
+.skills-flex-container div {
+    margin: auto;
+    padding: 0 15px;
+    text-align: center;
+    font-size: 23px;
+    line-height: -10px;
+}
+
+.skills-flex-container div i {
+    font-size: 60px;
+    /* color: #403F4C; */
+}
+
+.skills-flex-container h4 {
+    color: #403F4C;
+}
+
+.skills-java {
+    font-size: 90px;
+}
+
+.skills-java i {
+    color: #5283A2;
+}
+
+.skills-js i {
+    color: rgb(185, 169, 61);
+}
+
+.skills-php i{
+    color: #617CBE;
+}
+
+.skills-css i{
+    color: #2062AF;
+}
+
+.skills-html i{
+    color: #E44D26;
+}
+
+.skills-db i {
+    color: #F8981D;
+}
+
+.skills-xd i {
+    color: #ED1C24;
+}
+
+/* in progress */
+.progress {
+    display: flex;
+    flex-direction: row;
+}
+
+.progress ul{
+    margin: auto;
+    list-style-type: none;
+    padding: 0;
+}
+
+.progress ul li {
+    display: inline-block;
+    margin: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #595959;
+}
