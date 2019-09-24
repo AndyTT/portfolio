@@ -67,7 +67,7 @@ footer {
 .name {
     margin: auto;
     width: 50%;
-    top: 25%;
+    top: 20%;
     position: relative;
     display: block;
     color: #EDE6E3;
@@ -75,6 +75,10 @@ footer {
     text-align: center;
 }
 
+.name h3 {
+    line-height: 45px;
+}
+
 #andy {
-    color: tomato;
+    color: #B76D68;
 }
