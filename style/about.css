@@ -1,5 +1,5 @@
 .about {
-    height: 128%;
+    height: 730px;
     display: flex;
     flex-direction: column;
     background-color: #403F4C;
@@ -14,28 +14,10 @@
     display: flex;
 }
 
-.git, .linkedin {
-    margin: auto;
-    font-size: 70px;
-    color: #EDE6E3;
-}
-
-.git a:link, .git a:visited, .git a:active,
-.linkedin a:link, .linkedin a:visited, .linkedin a:active {
-    text-decoration: none;
-    color: #EDE6E3;
-}
-
-.git a:hover, .linkedin a:hover{
-    color: #B76D68;
-}
-
-.about-pic div {
-    margin: auto 100px;
-}
-
 .about-pic-andy {
     margin: auto;
+    /* background-color: red; */
+    margin-bottom: 20px;
 }
 
 .about-pic-andy img {
@@ -54,12 +36,14 @@
     margin: 50px 200px;
     margin-top: 10px;
     height: 100%;
+    /* background-color: blue; */
 }
 
 .about-content h1 {
     color: #DADAD9;
     text-shadow: 0 0 5px #B76D68;
     font-size: 25px;
+    margin-top: 40px;
 }
 
 .about-content p {
@@ -68,7 +52,7 @@
 
 .about-me p {
     font-size: 17px;
-    line-height: 40px;
+    line-height: 30px;
 }
 
 .about-edu {

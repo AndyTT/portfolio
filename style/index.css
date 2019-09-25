@@ -13,15 +13,15 @@ html, body {
 }
 
 /* Bottom Border */
-.home, .skills, .about, .projects, .contact {
+.home, .skills, .about, .projects, .contact, .footer {
     border-bottom-style: solid;
     border-bottom-color: #595959;
     border-bottom-width: 5px;
 }
 
 /* JoseFin FONT */
-.home li, .name, .skills h1, .about {
-    font-family: 'Josefin Sans', 'Fira Sans', sans-serif;
+.home li, .name, .skills h1, .about, .projects {
+    font-family: 'Josefin Sans', 'Fira Sans', 'Helvetica', sans-serif;
 }
 /* Fira Sans Font */
 .skills h4, .progress ul li {
