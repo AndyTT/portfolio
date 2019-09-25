@@ -1,3 +1,47 @@
 .footer {
-    height: 50px;
+    height: 125px;
+    display: flex;
+    background-color: #EDE6E3;
+}
+
+.footer-main-div {
+    width: 100%;
+    margin: 10px 70px;
+    display: flex;
+    /* background-color: red; */
+}
+
+.footer-content {
+    margin: auto;
+    width: 60%;
+    font-size: 20px;
+    color: #403F4C;
+    display: flex;
+    /* background-color: blue; */
+}
+
+.footer-circle {
+    font-size: 10px;
+    color: #595959;
+}
+
+.footer-icons {
+    font-size: 40px;
+}
+
+.footer-num, .footer-email, 
+.footer-circle, .footer-icons {
+    display: inline-block;
+    margin: auto;
+    /* background-color: yellow; */
+}
+
+/* icon pseudoclasses */
+.footer-icons a:link, .footer-icons a:visited,
+.footer-icons a:active {
+    color: #403F4C;
+}
+
+.footer-icons a:hover {
+    color: #FF715B;
 }
