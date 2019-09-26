@@ -31,7 +31,7 @@ Built entirely with plain HTML5 and CSS3.
 <h3>Contact/Footer</h4>
 <ul>
   <li>Phone number</li>
-  <li><Email/li>
+  <li>Email</li>
   <li>Anchors to my GitHub and LinkedIn profiles</li>
 </ul>
 
