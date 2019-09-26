@@ -1,5 +1,4 @@
 .about {
-    height: 730px;
     display: flex;
     flex-direction: column;
     background-color: #403F4C;
@@ -33,7 +32,7 @@
 /* ABOUT ME CONTENT */
 
 .about-content {
-    margin: 50px 200px;
+    margin: 50px 150px;
     margin-top: 10px;
     height: 100%;
     /* background-color: blue; */
@@ -62,3 +61,49 @@
 .about-edu p {
     line-height: 10px;
 }
+
+/* TABLET AND IPAD MEDIA QUERY */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .about-content {
+        margin: 10px 50px;
+        margin-bottom: 50px;
+    }
+}
+
+/* LOW RES TABLET, MOBILES MEDIA QUERY */
+@media (min-width: 481px) and (max-width: 767px){
+    .about-content {
+        margin: 10px 35px;
+        margin-bottom: 50px;
+    }
+
+    .about-edu p {
+        line-height: 18px;
+    }
+}
+
+/* MOST SMARTPHONE MEDIA QUERY */
+@media (min-width: 320px) and (max-width: 480px) {
+    .about-content {
+        margin: 10px 25px;
+        margin-bottom: 50px;
+    }
+
+    .about-edu p {
+        line-height: 22px;
+    }
+}
+
+/* SMALLER DEVICES THAT MAY NOT 
+EVEN EXIST MEDIA QUERY */
+@media (min-width: 150px) and (max-width: 319px){
+    .about-content {
+        margin: 10px 10px;
+        margin-bottom: 50px;
+    }
+
+    .about-edu p {
+        line-height: 30px;
+    }
+}
+

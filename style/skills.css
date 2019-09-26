@@ -1,7 +1,6 @@
 /* ------------------------ SKILLS ------------------------ */
 
 .skills {
-    height: 735px;
     background-image: linear-gradient(
         to bottom, #EDE6E3,#DADAD9);
     display: flex;
