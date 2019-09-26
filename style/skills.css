@@ -1,102 +1,75 @@
 /* ------------------------ SKILLS ------------------------ */
 
 .skills {
-    height: 77%;
+    height: 70%;
     background-image: linear-gradient(
         to bottom, #EDE6E3,#DADAD9);
+    display: flex
 }
 
-.skills h1 {
+.skills-main-container {
+    width: 100%;
+    margin: 50px 70px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+.skills-title{
+    width: 100%;
+    display: flex;
     color: #403F4C;
-    display: block;
-    text-align: center;
-    margin-top: 0px;
+    /* background-color: yellow; */
 }
 
-.skills-h1 {
-    padding-top: 45px;
+.skills-title h1 {
+    margin: auto;
     font-size: 50px;
 }
 
-.skills-flex-container{
+.skills-icon-container, .skills-icon-container2 {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    margin: 10px 70px;
-    justify-content: center;
+    height: 150px;
+    margin-top: 30px;
+    /* background-color: green; */
 }
 
-.skills-flex-container div {
+.skills-icon-container2 {
+    margin-top: 0;
+}
+
+.skills-icon, .skills-icon2 {
     margin: auto;
-    padding: 0 15px;
-    text-align: center;
-    font-size: 23px;
-    line-height: -10px;
-}
-
-.skills-flex-container div i {
-    font-size: 60px;
-    /* color: #403F4C; */
-}
-
-.skills-flex-container h4 {
-    color: #403F4C;
-}
-
-.skills-java {
-    font-size: 90px;
-}
-
-.skills-java i {
-    color: #5283A2;
-}
-
-.skills-js i {
-    color: rgb(185, 169, 61);
-}
-
-.skills-php i{
-    color: #617CBE;
-}
-
-.skills-css i{
-    color: #2062AF;
-}
-
-.skills-html i{
-    color: #E44D26;
-}
-
-.skills-db i {
-    color: #F8981D;
-}
-
-.skills-xd i {
-    color: #ED1C24;
-}
-
-/* in progress */
-.progress {
     display: flex;
-    flex-direction: row;
+    padding: 0 20px;
+    background-color: #403F4C;
+    border-style: solid;
+    border-color: #FF715B;
+    border-width: 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #403F4C;
+    /* background-color: blue; */
 }
 
-.progress ul{
+.skills-icon i, .skills-icon2 i {
+    font-size: 70px;
     margin: auto;
-    list-style-type: none;
-    padding: 0;
+    margin-left: 20px;
+    /* background-color: yellow; */
 }
 
-.progress ul li {
-    display: inline-block;
-    margin: 30px;
-    margin-top: 15px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #595959;
+.skills-icon h4, .skills-icon2 h4 {
+    font-size: 25px;
+    color: #DADAD9;
+    /* background-color: purple; */
 }
 
-.in-prog {
-    font-size: 30px;
-    padding-top: 20px;
-}
+/* colors */
+#html {color: #E44D26;}
+#css {color: #2062AF;}
+#js {color: rgb(185, 169, 61);}
+#xd {color: #ED1C24;}
+#db {color: #F8981D;}
+#php {color: #617CBE;}
+#java {color: #5283A2;}

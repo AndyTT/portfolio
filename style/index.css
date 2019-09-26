@@ -20,7 +20,7 @@ html, body {
 }
 
 /* JoseFin FONT */
-.home li, .name, .skills h1, .about, .projects, .footer {
+.home li, .name, .skills, .about, .projects, .footer {
     font-family: 'Josefin Sans', 'Fira Sans', 'Helvetica', sans-serif;
 }
 /* Fira Sans Font */
