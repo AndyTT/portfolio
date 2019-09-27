@@ -5,7 +5,7 @@ Built entirely with plain HTML5 and CSS3, from scratch.
 
 Info:
 - First website/project, by Andy Tran
-- <p style="color: red;">Currently in development<p>
+- <b>Currently in development<b>
 
 # Contains
 
