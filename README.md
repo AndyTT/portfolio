@@ -5,6 +5,7 @@ Built entirely with plain HTML5 and CSS3, from scratch.
 
 Info:
 - First website/project, by Andy Tran
+- Still in development
 
 # Contains
 
