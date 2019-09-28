@@ -1,3 +1,4 @@
+/* GENERAL STYLING ACROSS THE WHOLE SITE */
 
 html {
     scroll-behavior: smooth;
@@ -35,8 +36,615 @@ html, body {
 
 
 
+/* ------------ LANDING PAGE STYLING ------------ */
+
+.home {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-main-div {
+    display: flex;
+    margin: 55px auto auto auto;
+    flex-direction: column;
+    /* background-color: black; */
+}
+
+/* home,nav */
+.nav-head {
+    margin: 25px 70px;
+    display: flex;
+    flex-direction: row-reverse;
+    /* background-color: red; */
+}
+
+
+.nav-head ul{
+    list-style-type: none;
+    /* background-color: yellow; */
+    margin: 0;
+    padding: 0;
+}
+
+.home li{
+    display: inline-block;
+    font-size: 23px;
+    color: #DADAD9;
+    margin: 0 35px;
+    /* background-color: blue; */
+}
+
+.home li:hover {
+    color: #B76D68;
+}
+
+.home li:last-child {
+    margin-right: 0;
+}
+
+/* nav anchor and absolute home css */
+.home a:link, .home a:visited, .home a:active {
+    text-decoration: none;
+    color: #DADAD9;
+}
+
+.home a:hover {
+    text-decoration: none;
+    color: #B76D68;
+}
+
+/* home, heading */
+.name {
+    margin: auto;
+    width: 60%;
+    display: block;
+    color: #EDE6E3;
+    font-size: 30px;
+    text-align: center;
+    /* background-color: blue; */
+}
+.name h3 {
+    line-height: 45px;
+    /* background-color: yellow; */
+}
+
+#andy {
+    color: #B76D68;
+}
+/* About Arrow on Home */
+#arrow {
+    display: flex;
+    /* background-color: yellow; */
+    margin-bottom: 40px;
+}
+
+#arrow a{
+    margin: auto;
+    font-size: 40px;
+    color: #DADAD9;
+    text-shadow: 0 0 10px #595959;
+    /* transition: font-size 0.5s; button transition */
+}
+
+#arrow a:hover{
+    color: #595959;
+    /* font-size: 48px; button transition */
+    text-shadow: 0 0 3px #DADAD9;
+}
+
+/* Home Absolute Anchor */
+.home-anchor-div {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#home-absolute {
+    bottom: 0;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    font-size: 28px;
+    transition: font-size 0.5s; /* button transition */
+    position: fixed;
+    color: #595959;
+}
+
+#home-absolute:hover{
+    color: #FF715B;
+    font-size: 32px; /* button transition */
+    text-shadow: 0 0 3px #403F4C;
+}
+
+
+/* NAV MEDIA QUERY */
+@media (min-width:768px) and (max-width: 960px) {
+    .nav-head {
+        margin: 25px auto;
+        display: flex;
+        flex-direction: row;
+        /* background-color: red; */
+    }
+
+    .home li:first-child {
+        margin-left: 0px;
+    }
+
+    .nav-head ul{
+        margin: auto;
+    }
+}
+
+/* ULTRA BIG DESKTOPS */
+@media (min-width: 1025px){
+    .home-main-div, .name {
+        margin: auto;
+    }
+
+    .home-main-div {
+        display: flex;
+    }
+}
+
+
+/* TABLET AND IPAD MEDIA QUERY */
+@media (min-width: 768px) and (max-width: 1024px){
+    .name {
+        width: 65%; 
+    }
+
+    .home-main-div, .name {
+        margin: auto;
+    }
+}
+
+
+/* LOW RES TABLET, MOBILES MEDIA QUERY */
+@media (min-width: 481px) and (max-width: 767px){
+    .home {
+        height: 100%;
+    }
+    .home-main-div {
+        margin: auto;
+    }
+    .name {
+        width: 90%;
+    }
+    .nav-head {
+        margin: 25px auto;
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: row;
+    }
+    .home li:first-child {
+        margin-left: 0px;
+    }
+    .home li {
+        margin: 0 10px;
+    }
+    .nav-head ul{
+        margin: auto;
+    }
+}
+
+/* MOST SMARTPHONE MEDIA QUERY */
+@media (min-width: 320px) and (max-width: 480px) {
+    .name {
+        width: 90%;
+    }
+    .nav-head {
+        display: none;
+    }
+    .home li {
+        margin: 0 5px;
+        padding: 0;
+    }
+    .home {
+        display: flex;
+    }
+
+    .home-main-div, .name {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .home h1 {
+        margin: auto;
+    }
+    #arrow {
+        transition: none;
+    }
+    
+}
+
+/* SMALLER DEVICES THAT MAY NOT 
+EVEN EXIST MEDIA QUERY */
+@media (min-width: 150px) and (max-width: 319px){
+    .home {
+        height: 250px;
+        display: flex;
+    }
+
+    .home-main-div, .name {
+        display: flex;
+        margin: auto;
+    }
+
+    .home h1 {
+        font-size: 45px;
+        margin: auto;
+    }
+    .name h3 {
+        display: none;
+    }
+    #desktop-nav {
+        display: none;
+    }
+
+}
 
 
 
+/* ------------ ABOUT PAGE STYLING ------------ */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    background-color: #403F4C;
+}
+
+/* ABOUT PICTURE */
+
+.about-pic {
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+}
+
+.about-pic-andy {
+    margin: auto;
+    /* background-color: red; */
+    margin-bottom: 20px;
+}
+
+.about-pic-andy img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #DADAD9;
+    border-width: 3px;
+    box-shadow: 0 0 7px #B76D68;
+}
+
+/* ABOUT ME CONTENT */
+
+.about-content {
+    margin: 50px 150px;
+    margin-top: 10px;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.about-content h1 {
+    color: #DADAD9;
+    text-shadow: 0 0 5px #B76D68;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.about-content p {
+    color: #EDE6E3;
+}
+
+.about-me p {
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.about-edu {
+    margin-top: 30px;
+}
+
+.about-edu p {
+    line-height: 10px;
+}
+
+/* TABLET AND IPAD MEDIA QUERY */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .about-content {
+        margin: 10px 50px;
+        margin-bottom: 50px;
+    }
+}
+
+/* LOW RES TABLET, MOBILES MEDIA QUERY */
+@media (min-width: 481px) and (max-width: 767px){
+    .about-content {
+        margin: 10px 35px;
+        margin-bottom: 50px;
+    }
+
+    .about-edu p {
+        line-height: 18px;
+    }
+}
+
+/* MOST SMARTPHONE MEDIA QUERY */
+@media (min-width: 320px) and (max-width: 480px) {
+    .about-content {
+        margin: 10px 25px;
+        margin-bottom: 50px;
+    }
+
+    .about-edu p {
+        line-height: 22px;
+    }
+}
+
+/* SMALLER DEVICES THAT MAY NOT 
+EVEN EXIST MEDIA QUERY */
+@media (min-width: 150px) and (max-width: 319px){
+    .about-content {
+        margin: 10px 10px;
+        margin-bottom: 50px;
+    }
+
+    .about-edu p {
+        line-height: 30px;
+    }
+}
 
 
+
+/* ------------ SKILLS PAGE STYLING ------------ */
+
+.skills {
+    background-image: linear-gradient(
+        to bottom, #EDE6E3,#DADAD9);
+    display: flex;
+}
+
+.skills-main-container {
+    margin: 50px 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+.skills-title {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    /* background-color: yellow; */
+}
+
+.skills-title h1 {
+    font-size: 50px;
+    margin: auto;
+    color: #403F4C;
+}
+
+.skills-content-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    display: flex;
+    /* background-color: blue; */
+}
+
+.skills-content-icon {
+    margin: 0 auto;
+    width: 80%;
+    /* background-color: green; */
+}
+
+.skills-icon {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px auto;
+    /* background-color: purple; */
+}
+
+.skills-icon:first-child {
+    margin-top:0;
+}
+
+.icon {
+    display: flex;
+    margin: auto;
+    padding: 15px 30px;
+    margin-top: 15px;
+    width: 200px;
+    background-color: #403F4C;
+    border-style: solid;
+    border-color: #FF715B;
+    border-width: 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #403F4C;
+    /* background-color: red; */
+}
+
+.icon:hover {
+    background-color: #DADAD9;
+    box-shadow: 0 0 40px 2px #595959 inset;
+}
+
+.icon h4 {
+    font-size: 28px;
+    margin: auto;
+}
+
+.icon i {
+    font-size: 80px;
+    margin: auto;
+}
+
+/* colors */
+#html {color: #E44D26;}
+#css {color: #2062AF;}
+#js {color: rgb(185, 169, 61);}
+#xd {color: #ED1C24;}
+#db {color: #F8981D;}
+#php {color: #617CBE;}
+#java {color: #5283A2;}
+
+
+@media (min-width: 1025px){
+
+    .icon{ 
+        width: 550px;
+    }
+}
+
+@media (max-width: 816px){
+    .skills-icon {
+        margin-top: 0;
+    }
+    .icon:first-child {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .footer-content{
+        font-size: 10px;
+    }
+
+}
+
+
+
+/* ------------ PROJECTS PAGE STYLING ------------ */
+
+.projects {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    background-color: #B76D68;
+}
+
+.projects-div-title {
+    font-size: 50px;
+    color: #EDE6E3;
+    text-align: center;
+    /* main top, left, right margin */
+    margin-top: 50px; 
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: 0;
+    /* background-color: blue; */
+}
+
+.projects-div {
+    margin: 0 70px;
+    /* main bottom margin */
+    margin-bottom: 50px;;
+    height: 100%;
+    display: flex;
+    /* background-color: red */
+}
+
+.projects-div-content {
+    margin: auto;
+    font-size: 30px;
+    /* background-color: yellow; */
+}
+
+.projects-div-content h3 {
+    color: #403F4C;
+}
+
+
+
+/* ------------ FOOTER PAGE STYLING ------------ */
+
+.footer {
+    display: flex;
+    background-color: #EDE6E3;
+}
+
+.footer-main-div {
+    width: 100%;
+    margin: 20px 70px;
+    display: flex;
+    /* background-color: red; */
+}
+
+.footer-content {
+    margin: auto;
+    width: 60%;
+    font-size: 20px;
+    color: #403F4C;
+    display: flex;
+    /* background-color: blue; */
+}
+
+.footer-num p{
+    margin: 0;
+}
+
+.footer-icon-div {
+    margin: auto;
+}
+
+.footer-icon-div i {
+    margin: auto 5px;
+}
+
+.footer-icon-div i:first-child {
+    margin-right: 10px;
+}
+
+.footer-circle {
+    font-size: 10px;
+    margin: auto;
+    color: #595959;
+}
+
+.footer-icons {
+    font-size: 40px;
+}
+
+.footer-num, .footer-email, 
+.footer-circle, .footer-icons {
+    display: inline-block;
+    margin: auto;
+    /* background-color: yellow; */
+}
+
+/* icon pseudoclasses */
+.footer-icons a:link, .footer-icons a:visited,
+.footer-icons a:active {
+    color: #403F4C;
+}
+
+.footer-icons a:hover {
+    color: #FF715B;
+}
+
+
+@media (min-width: 1280px){
+    .footer-icons:first-child {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 1024px){
+    .footer-content {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .footer-circle {
+        display: none;
+    }
+
+    .footer-num, .footer-email,
+    .footer-icons {
+        font-size: 15px;
+        margin: auto;
+    }
+}
