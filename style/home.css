@@ -14,6 +14,7 @@
 }
 
 /* home,nav */
+
 .nav-head {
     margin: 25px 70px;
     display: flex;
@@ -24,6 +25,9 @@
 
 .nav-head ul{
     list-style-type: none;
+    /* background-color: yellow; */
+    margin: 0;
+    padding: 0;
 }
 
 .home li{
@@ -31,6 +35,7 @@
     font-size: 23px;
     color: #DADAD9;
     margin: 0 35px;
+    /* background-color: blue; */
 }
 
 .home li:hover {
@@ -62,15 +67,15 @@
     text-align: center;
     /* background-color: blue; */
 }
-
 .name h3 {
     line-height: 45px;
+    /* background-color: yellow; */
 }
 
 #andy {
     color: #B76D68;
 }
-/* Skills Arrow on Home */
+/* About Arrow on Home */
 #arrow {
     display: flex;
     /* background-color: yellow; */
@@ -88,7 +93,7 @@
 #arrow a:hover{
     color: #595959;
     font-size: 48px; /* button transition */
-    text-shadow: 0 0 10px #DADAD9;
+    text-shadow: 0 0 3px #DADAD9;
 }
 
 /* Home Absolute Anchor */
@@ -115,9 +120,9 @@
 
 
 /* NAV MEDIA QUERY */
-@media (min-width:600px) and (max-width: 960px) {
+@media (min-width:768px) and (max-width: 960px) {
     .nav-head {
-        margin: 25px 0px;
+        margin: 25px auto;
         display: flex;
         flex-direction: row;
         /* background-color: red; */
@@ -134,15 +139,36 @@
 /* TABLET AND IPAD MEDIA QUERY */
 @media (min-width: 768px) and (max-width: 1024px){
     .name {
-        width: 65%;
+        width: 65%; 
     }
 }
 
 
 /* LOW RES TABLET, MOBILES MEDIA QUERY */
 @media (min-width: 481px) and (max-width: 767px){
+    .home {
+        height: 100%;
+    }
+    .home-main-div {
+        margin: auto;
+    }
     .name {
-        width: 80%;
+        width: 90%;
+    }
+    .nav-head {
+        margin: 25px auto;
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: row;
+    }
+    .home li:first-child {
+        margin-left: 0px;
+    }
+    .home li {
+        margin: 0 10px;
+    }
+    .nav-head ul{
+        margin: auto;
     }
 }
 
@@ -151,11 +177,54 @@
     .name {
         width: 90%;
     }
+    .nav-head {
+        display: none;
+    }
+    .home li {
+        margin: 0 5px;
+        padding: 0;
+    }
+    .home {
+        display: flex;
+    }
+
+    .home-main-div, .name {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .home h1 {
+        margin: auto;
+    }
+    #arrow {
+        transition: none;
+    }
     
 }
 
 /* SMALLER DEVICES THAT MAY NOT 
 EVEN EXIST MEDIA QUERY */
 @media (min-width: 150px) and (max-width: 319px){
-    
+    .home {
+        height: 250px;
+        display: flex;
+    }
+
+    .home-main-div, .name {
+        display: flex;
+        margin: auto;
+    }
+
+    .home h1 {
+        font-size: 45px;
+        margin: auto;
+    }
+    .name h3 {
+        display: none;
+    }
+    #desktop-nav {
+        display: none;
+    }
+
 }

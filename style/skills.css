@@ -37,7 +37,7 @@
 
 .skills-content-icon {
     margin: 0 auto;
-    width: 60%;
+    width: 80%;
     /* background-color: green; */
 }
 
@@ -90,3 +90,13 @@
 #db {color: #F8981D;}
 #php {color: #617CBE;}
 #java {color: #5283A2;}
+
+
+@media (max-width: 816px){
+    .skills-icon {
+        margin-top: 0;
+    }
+    .icon:first-child {
+        margin-top: 0;
+    }
+}

@@ -1,12 +1,11 @@
 .footer {
-    height: 125px;
     display: flex;
     background-color: #EDE6E3;
 }
 
 .footer-main-div {
     width: 100%;
-    margin: 10px 70px;
+    margin: 20px 70px;
     display: flex;
     /* background-color: red; */
 }
@@ -20,8 +19,25 @@
     /* background-color: blue; */
 }
 
+.footer-num p{
+    margin: 0;
+}
+
+.footer-icon-div {
+    margin: auto;
+}
+
+.footer-icon-div i {
+    margin: auto 5px;
+}
+
+.footer-icon-div i:first-child {
+    margin-right: 10px;
+}
+
 .footer-circle {
     font-size: 10px;
+    margin: auto;
     color: #595959;
 }
 
@@ -44,4 +60,14 @@
 
 .footer-icons a:hover {
     color: #FF715B;
+}
+
+@media (max-width: 1000px){
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-circle {
+        display: none;
+    }
 }

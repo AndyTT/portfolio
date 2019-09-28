@@ -6,10 +6,11 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-image: url("../images/blackbird.jpg");
+    /* background-image: url("../images/blackbird.jpg");
     background-size: 105%;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    background-color: #222222;
 }
 
 html, body {
