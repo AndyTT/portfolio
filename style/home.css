@@ -87,12 +87,12 @@
     font-size: 40px;
     color: #DADAD9;
     text-shadow: 0 0 10px #595959;
-    transition: font-size 0.5s; /* button transition */
+    /* transition: font-size 0.5s; button transition */
 }
 
 #arrow a:hover{
     color: #595959;
-    font-size: 48px; /* button transition */
+    /* font-size: 48px; button transition */
     text-shadow: 0 0 3px #DADAD9;
 }
 
