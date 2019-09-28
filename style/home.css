@@ -141,6 +141,10 @@
     .name {
         width: 65%; 
     }
+
+    .home-main-div, .name {
+        margin: auto;
+    }
 }
 
 

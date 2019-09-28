@@ -100,3 +100,10 @@
         margin-top: 0;
     }
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .footer-content{
+        font-size: 10px;
+    }
+
+}

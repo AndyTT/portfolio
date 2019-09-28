@@ -62,12 +62,19 @@
     color: #FF715B;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1024px){
     .footer-content {
         flex-direction: column;
+        margin: auto;
     }
 
     .footer-circle {
         display: none;
+    }
+
+    .footer-num, .footer-email,
+    .footer-icons {
+        font-size: 15px;
+        margin: auto;
     }
 }
