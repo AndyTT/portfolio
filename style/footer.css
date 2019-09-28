@@ -62,6 +62,13 @@
     color: #FF715B;
 }
 
+
+@media (min-width: 1025px){
+    .footer-icons:first-child {
+        margin-right: 40px;
+    }
+}
+
 @media (max-width: 1024px){
     .footer-content {
         flex-direction: column;

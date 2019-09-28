@@ -92,6 +92,13 @@
 #java {color: #5283A2;}
 
 
+@media (min-width: 1025px){
+
+    .icon{ 
+        width: 550px;
+    }
+}
+
 @media (max-width: 816px){
     .skills-icon {
         margin-top: 0;
