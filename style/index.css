@@ -617,11 +617,13 @@ EVEN EXIST MEDIA QUERY */
 
 /* icon pseudoclasses */
 .footer-icons a:link, .footer-icons a:visited,
-.footer-icons a:active {
+.footer-icons a:active, .footer-email a:link, .footer-email a:visited,
+.footer-email a:active{
     color: #403F4C;
+    text-decoration: none;
 }
 
-.footer-icons a:hover {
+.footer-icons a:hover, .footer-email a:hover {
     color: #FF715B;
 }
 
